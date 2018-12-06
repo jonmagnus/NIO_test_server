@@ -1,5 +1,8 @@
 /* Wrong anwer
- * Point 70/100*/
+ * Point 70/100
+ * Notice that the correct answer to the last test-case in the
+ * input file should be 4. Modify algorithm to distribute resources
+ * after the first three types to even out the results.*/
 #include <cstdio>
 #include <algorithm>
 using namespace std;
