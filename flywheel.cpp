@@ -1,7 +1,5 @@
 /* Score 80/100
- * Wrong answer
- * TODO: Add detection for split top - 1 2 2 1 - by
- * changing primary test in loop.*/
+ * Wrong answer*/
 #include <cstdio>
 using namespace std;
 
@@ -18,15 +16,14 @@ int main()
 		
 		ll val = 0;
 		int pre_p;
-		if (p[0] <= p[1]) pre_p = p[0];
+		if (p[0] < p[1]) pre_p = p[0];
 		for (int i = 1; i < n - 1; i++) 
-			if ((p[i-1] - p[i])*(p[i] - p[i+1]) < 0)
-			{
-				if (p[i-1] < p[i])
-					val += p[i] - pre_p;
-				else
-					pre_p = p[i];
-			}
+		{
+			if (p[i-1] <= p[i] && p[i] > p[i+1])
+				val += p[i] - pre_p;
+			else if (p[i-1] >= p[i] && p[i] < p[i+1])
+				pre_p = p[i];
+		}
 		if (p[n-1] >= p[n-2]) val += p[n-1] - pre_p;
 		printf("%lld\n", val*1000);
 	}
