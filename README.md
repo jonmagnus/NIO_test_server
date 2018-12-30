@@ -16,4 +16,5 @@
 | lavalek     | 100 | |
 | paranoia    | 70  | Execution timed out |
 | scientist   | 100 | |
+| tannhjul    | 100 | |
 | tull_med_romertall | 0 | Wrong answer |
