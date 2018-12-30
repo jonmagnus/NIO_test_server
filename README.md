@@ -10,6 +10,7 @@
 | fergeforbindelse | 100 | |
 | flywheel   | 80  | Wrong answer |
 | gjetteleken | 100 | |
+| hovedstad   | 10  | Wrong answer |
 | hyperion    | 100 | |
 | julegaver   | 100 | |
 | kalkulator  | 100 | |
