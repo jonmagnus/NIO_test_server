@@ -2,6 +2,7 @@
 ## Task status
 | Name | Score | Comment |
 |------|-------|---------|
+| bokstavmaskin | 80 | Execution timed out |
 | brodering  | 100 | |
 | byggmester | 10  | Wrong answer |
 | caesar     | 100 | |
