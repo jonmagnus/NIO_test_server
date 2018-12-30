@@ -17,6 +17,7 @@
 | kalkulator  | 100 | |
 | konsert     | 10  | Wrong answer & Execution killed |
 | lavalek     | 100 | |
+| mennisort   | 100 | |
 | paranoia    | 70  | Execution timed out |
 | scientist   | 100 | |
 | tannhjul    | 100 | |
