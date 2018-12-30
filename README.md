@@ -13,6 +13,7 @@
 | julegaver   | 100 | |
 | kalkulator  | 100 | |
 | konsert     | 10  | Wrong answer & Execution killed |
+| lavalek     | 100 | |
 | paranoia    | 70  | Execution timed out |
 | scientist   | 100 | |
 | tull_med_romertall | 0 | Wrong answer |
