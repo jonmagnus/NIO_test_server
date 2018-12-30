@@ -6,6 +6,7 @@
 | brodering  | 100 | |
 | byggmester | 10  | Wrong answer |
 | caesar     | 100 | |
+| fergeforbindelse | 100 | |
 | flywheel   | 80  | Wrong answer |
 | gjetteleken | 100 | |
 | hyperion    | 100 | |
