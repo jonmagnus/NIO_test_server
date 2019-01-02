@@ -1,11 +1,11 @@
-/* Score 10/100
- * Wrong asnwer*/
+/* Score 100/100*/
 #include <cstdio>
 #include <cstring>
 using namespace std;
 
 #define MAX_N 303
 #define min(A,B) ((A) < (B) ? (A) : (B))
+#define max(A,B) ((A) > (B) ? (A) : (B))
 #define INF 100000000000000LL
 typedef long long ll;
 
@@ -44,7 +44,8 @@ int main()
 		for (int i = 0; i < N; i++)
 		{
 			ll sum = 0;
-			for (int j = 0; j < N; j++) sum += dist[i][j];
+			//for (int j = 0; j < N; j++) sum += dist[i][j];
+			for (int j = 0; j < N; j++) sum = max(sum,dist[i][j]);
 			if (sum < min_dist) min_dist = sum, hov = i;
 		}
 		
