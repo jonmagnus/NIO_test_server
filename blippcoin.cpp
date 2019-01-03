@@ -1,5 +1,4 @@
-/* Score 70/100
- * Wrong answer*/
+/* Score 100/100*/
 #include <cstdio>
 using namespace std;
 
@@ -15,11 +14,12 @@ int main()
 		int last_p = p[0];
 		for (int i = 1; i < N - 1; i++)
 		{
-			if (p[i-1] >= p[i] && p[i] < p[i+1]) last_p = p[i];
-			else if (p[i-1] <= p[i] && p[i] > p[i+1])
+			if (p[i-1] >= p[i] && p[i] < p[i+1] & p[i] < last_p) last_p = p[i];
+			else if (p[i-1] <= p[i] && p[i] > p[i+1] & p[i] > last_p)
 			{
 				int c_count = K/last_p;
 				K += c_count*(p[i] - last_p);
+				last_p = p[i];
 			}
 		}
 		if (p[N-1] >= p[N-2])
