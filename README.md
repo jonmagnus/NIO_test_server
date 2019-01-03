@@ -2,7 +2,7 @@
 ## Task status
 | Name | Score | Comment |
 |------|-------|---------|
-| blippcoin  | 70  | Wrong answer |
+| blippcoin  | 100  | |
 | bokstavmaskin | 80 | Execution timed out |
 | brodering  | 100 | |
 | byggmester | 10  | Wrong answer |
@@ -23,3 +23,6 @@
 | snillebarn  | 100 | |
 | tannhjul    | 100 | |
 | tull_med_romertall | 0 | Wrong answer |
+
+## TODO
+- Model flywheel implementation after blippcoin implementation
